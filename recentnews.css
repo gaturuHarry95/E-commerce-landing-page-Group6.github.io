@@ -1,0 +1,123 @@
+.recents .container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.recents {
+  padding: 50px 0;
+ 
+}
+
+.recents_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  position: relative;
+  margin-top: -10px;
+  
+}
+
+.recents h2{
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .recents_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .recents_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}
+
+.recent {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.recents h2 {
+  margin: 30px auto;
+}
+
+.recents .blog1 {
+  background: url(images/b1.jpg) no-repeat scroll center / cover;
+}
+.recents .blog2 {
+  background: url(images/b2.jpg) no-repeat scroll center / cover;
+}
+.recents .blog3 {
+  background: url(images/b3.jpg) no-repeat scroll center / cover;
+}
+
+.recents .content {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.read-more{
+  display: flex;
+  align-items: center;
+}
+
+.recents .read-btn {
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+  color: #000;
+  font-family: "Dosis", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.date{
+  text-transform: uppercase;
+  margin: 20px 0 0 15px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+ background-color: #fff;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ font-weight: 400;
+
+ 
+}
+
+.content{
+  margin-top: 220px;
+  padding-left:25px ;
+}
+
+.read-more{
+  padding-left:30px;
+  margin-top: 25px;
+  font-family: Dosis;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+
+}
+
